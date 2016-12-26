@@ -41,6 +41,7 @@ public class ImageRESTController {
 		System.out.println(productId);
 		if (!file.isEmpty()) {
             try {
+            	// hard code for test
                 String realPathtoUploads = "E:/eclipse/stupidphone_img/";
                 if(! new File(realPathtoUploads).exists())
                 {
